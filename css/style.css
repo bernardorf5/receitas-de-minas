@@ -19,8 +19,12 @@ header{
 }
 section h2{
     font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 400;
 }
 img{
     display: block;
@@ -28,18 +32,28 @@ img{
     border-radius: 4%;
     border-color: rgb(49, 27, 27);
     border-style: solid;
-    width: 300px;
+    width: 500px;
     margin-bottom: 10px;
 }
 button{
     display:block;
     margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
     margin-bottom: 10px;
     padding: 10px;
-    width: 300px;
-    border-radius: 4%;
+    width: 506px;
     border-color: rgb(49, 27, 27);
     border-style: solid;
+    background-color: rgb(49, 27, 27);
+    color: aliceblue;
 }
-
+#segredo{
+    margin: 50px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(49, 27, 27);
+    border-style: solid;
+    padding: 20px;
+}
