@@ -10,12 +10,13 @@ header{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin: 0;
+    margin: 0 0;
     background-color: rgb(49, 27, 27);
     color: aliceblue;
     margin-bottom: 10px;
     padding: 2px;
     font-size: 12px;
+
 }
 section h2{
     font-family: 'Times New Roman', Times, serif;
@@ -51,9 +52,62 @@ button{
     color: aliceblue;
 }
 #segredo{
-    margin: 50px 20px;
+    margin: 450px auto;
     font-family: 'Times New Roman', Times, serif;
     border-color: rgb(49, 27, 27);
     border-style: solid;
     padding: 20px;
+    background-color: aliceblue;
+}
+#receitas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+#ingredientes{
+    border-color: rgb(49, 27, 27);
+    border-style: double;
+    padding: 25px;
+    width: 40%;
+    height: 180px;
+    text-align: center;
+}
+#preparo{
+    border-color: rgb(49, 27, 27);
+    border-style: double;
+    padding: 25px;
+    width: 40%;
+    height: 180px;
+    text-align: center;
+}
+#porcoes{
+    border-color: rgb(49, 27, 27);
+    border-style: double;
+    padding: 25px;
+    width: 40%;
+    height: 180px;
+    text-align: center;
+}
+#tempo{
+    border-color: rgb(49, 27, 27);
+    border-style: double;
+    padding: 25px;
+    width: 40%;
+    height: 180px;
+    text-align: center;
+}
+#anotacoes{
+    border-color: rgb(49, 27, 27);
+    border-style: double;
+    padding: 25px;
+    width: calc(80% + 80px);
+    height: 180px;
+    text-align: center;
+}
+ul, ol {
+    display: inline-block;
+    text-align: left;
+    
 }
